@@ -1,0 +1,6 @@
+--no-index
+-f http://devpi/+myproject/simple
+-r requirements.txt
+-r tests-require.txt
+-r docs-require.txt
+-r db-requires.txt

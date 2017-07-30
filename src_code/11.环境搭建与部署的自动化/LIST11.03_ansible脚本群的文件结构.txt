@@ -1,0 +1,18 @@
++-- deployment/
+    +-- group_vars/
+        +-- all
+        ...
+    +-- host_vars/
+    +-- roles/
+         +-- environ
+         +-- nginx
+         +-- mysql
+         ...
+    +-- inventory/
+        +-- production
+        +-- dev
+        ...
+    +-- site.yml
+    +-- ap.yml
+    +-- lb.yml
+    ...

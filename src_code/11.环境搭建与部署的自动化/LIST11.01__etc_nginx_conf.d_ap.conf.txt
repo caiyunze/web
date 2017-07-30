@@ -1,0 +1,18 @@
+upstream app {
+    {% for server in NGINX_UPSTREAMS %}
+    server {{ server }}:8000;
+    {% endfor %}
+}
+
+server {
+    listen {% if SSL %}443{% else %}80{% endif %};
+    server_name {{ DOMAIN }};
+
+    {% if SSL %}
+    ssl on;
+    ssl_certificate {{ SSL.CERTIFICATE }};
+    ssl_certificate_key {{ SSL.KEY }};
+    {% endif %}
+
+    ...
+}

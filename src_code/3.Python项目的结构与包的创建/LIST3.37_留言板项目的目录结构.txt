@@ -1,0 +1,9 @@
+/home/bpbook/guestbook/
+   +-- LICENSE.txt
+   +-- MANIFEST.in
+   +-- README.rst
+   +-- guestbook
+   |    +-- __init__.py
+   |    +-- static/main.css
+   |    +-- templates/index.html
+   +-- setup.py

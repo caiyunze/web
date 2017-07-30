@@ -1,0 +1,17 @@
+roles/
+ +-- nginx/
+      +-- tasks/
+           +-- main.yml
+      +-- handlers/
+           +-- main.yml
+      +-- vars/
+           +-- main.yml
+      +-- defaults/
+           +-- main.yml
+      +-- files/
+           +-- nginx.repo
+      +-- templates/
+           +-- conf.d/
+               +-- ap.conf
+      +-- meta/
+           +-- main.yml

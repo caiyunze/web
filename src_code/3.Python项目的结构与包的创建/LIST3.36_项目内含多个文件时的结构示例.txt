@@ -1,0 +1,9 @@
+/home/bpbook/projectname
+   +-- MANIFEST.in
+   +-- README.rst
+   +-- packagename/
+   |    +-- __init__.py
+   |    +-- module.py
+   |    +-- templates/
+   |         +-- index.html
+   +-- setup.py

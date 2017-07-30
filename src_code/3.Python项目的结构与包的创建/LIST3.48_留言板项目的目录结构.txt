@@ -1,0 +1,11 @@
+/home/bpbook/guestbook/
+   +-- .venv/
+   +-- LICENSE.txt
+   +-- MANIFEST.in
+   +-- guestbook
+   |    +-- __init__.py
+   |    +-- static/main.css
+   |    +-- templates/index.html
+   +-- guestbook.dat
+   +-- guestbook.egg-info/
+   +-- setup.py

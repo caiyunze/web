@@ -1,0 +1,11 @@
+$ pip install bottle
+$ pip freeze -r requirements.txt
+Flask==0.10.1
+Jinja2==2.7.3
+MarkupSafe==0.23
+Werkzeug==0.9.6
+argparse==1.2.1
+itsdangerous==0.24
+wsgiref==0.1.2
+## The following requirements were added by pip --freeze:
+bottle==0.12.7

@@ -1,0 +1,3 @@
+>>> from guestbook import load_data
+>>> load_data()
+[{'comment': 'test comment', 'name': 'test', 'create_at': datetime.datetime(2014, 10, 31, 10, 0)}]

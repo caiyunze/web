@@ -1,0 +1,22 @@
+$ python setup.py --help-commands
+标准命令
+  build            构建安装所需的全部内容
+  clean            删除'build'命令创建的所有临时文件
+  install          安装build目录下的全部内容
+  sdist            创建源码包（以tar、zip等格式）
+  register         将程序包注册到Python Package Index
+  bdist            创建二进制包
+  bdist_dumb       创建'dumb'格式的二进制包
+  bdist_rpm        创建RPM格式的二进制包
+  bdist_wininst    创建面向MS Windows的安装包
+  upload           将二进制包上传至PyPI
+  check            检查程序包的设置值是否正确
+
+扩展命令
+  develop          以开发模式安装程序包
+  setopt           在setup.cfg等文件中记录一个选项
+  saveopts         将给定的多个选项记录在setup.cfg等文件中
+  upload_docs      向PyPI上传文档
+  alias            定义快捷命令
+  bdist_egg        创建'egg'格式的程序包
+  test             原地构建后运行Unit Test

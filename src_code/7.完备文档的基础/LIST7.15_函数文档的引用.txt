@@ -1,0 +1,13 @@
+>>> help(path.commonprefix)
+Help on function commonprefix in module path:
+
+commonprefix(path_list):
+    返回路径的“`path_list`”中最长的公共前缀
+    （依次判断路径名的每一个字符）
+
+        >>> commonprefix(['/usr/bin/python', '/usr/local/bin/python'])
+        '/usr/'
+        >>> commonprefix(['/usr/bin/python'])
+        '/usr/bin/python'
+
+-（中间省略）-

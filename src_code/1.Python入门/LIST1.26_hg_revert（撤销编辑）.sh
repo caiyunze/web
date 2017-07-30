@@ -1,0 +1,1 @@
+$ hg revert test.txt

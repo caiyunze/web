@@ -1,0 +1,2 @@
+$ hg branch
+default

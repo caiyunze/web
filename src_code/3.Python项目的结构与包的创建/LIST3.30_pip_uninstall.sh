@@ -1,0 +1,6 @@
+$ pip uninstall flask
+Uninstalling flask:
+  /home/bpbook/work/venv/lib/python2.7/site-packages/...
+  ...
+Proceed (y/n)? y
+  Successfully uninstalled flask
